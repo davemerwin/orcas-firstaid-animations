@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="640px" height="360px" viewBox="0 0 640 360" enable-background="new 0 0 640 360" xml:space="preserve">
+<g id="PlayerControls">
+	<rect id="PlayerRect" y="330" fill="90-#F2F2F2-#E5E5E5:23-#C3C3C3:67-#A6A6A6" stroke-width="1" stroke="#7F7F7F" width="640" height="30"/>
+	<g id="PlayToggle">
+		<polygon id="Play" fill="#3B3939" points="23.02,345 15.52,348.75 8.02,352.5 8.02,345 8.02,337.5 15.52,341.25 	"/>
+		<g id="Pause">
+			<rect x="7" y="337.5" fill="#3B3939" width="5" height="15"/>
+			<rect x="17" y="337.5" fill="#3B3939" width="5" height="15"/>
+		</g>
+		<rect id="PlayToggleTarget" y="330" fill="#FFF" opacity="0" width="30" height="30"/>
+	</g>
+	<g id="MuteToggle">
+		<g id="Speaker">
+			<g id="SpeakerProper">
+				<rect x="34.647" y="340.362" fill="#3B3939" width="3.373" height="9.51"/>
+				<polygon fill="#3B3939" points="43.331,352.027 37.67,349.812 37.544,340.362 43.331,338.206 		"/>
+			</g>
+			<g id="SoundWaves">
+				<path fill="none" stroke-width="1" stroke="#3B3939" d="M45.233,338.83c3.65,0,6.612,2.96,6.612,6.612s-2.96,6.612-6.612,6.612"/>
+				<path fill="none" stroke-width="1" stroke="#3B3939" d="M47.388,336.96c4.688,0,8.483,3.798,8.483,8.483c0,4.685-3.795,8.484-8.483,8.484"/>
+				<path fill="none" stroke-width="1" stroke="#3B3939" d="M44.58,341.233c2.186,0,3.959,1.772,3.959,3.96c0,2.187-1.773,3.959-3.959,3.959"/>
+			</g>
+		</g>
+		<rect id="MuteToggleTarget" x="30" y="330" fill="#FFF" opacity="0" width="30" height="30"/>
+	</g>
+	<line id="MuteEdge" fill="none" stroke-width="1" stroke="#7F7F7F" x1="60" y1="330" x2="60" y2="360"/>
+	<line id="PlayToggleEdge" fill="none" stroke="#7F7F7F" stroke-width="1" x1="30" y1="330" x2="30" y2="360"/>
+</g>
+</svg>

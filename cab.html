@@ -1,0 +1,227 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ 
+<title>CAB</title> 
+ 
+<meta charset="utf-8" /> 
+
+ 
+<style type="text/css"> 
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #fff;
+	border: none;
+	}	
+
+div.mod {	
+	margin: 0 0 30px 0;
+	padding: 80px;
+	text-align: center;
+	background: #fff;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.1);
+	box-shadow: 0 0 3px rgba(0,0,0,.1);
+	}
+
+
+
+ul li{
+	list-style:none;
+	display:inline;
+	padding:0 50px 0 0;
+} 
+
+/* button styles */
+ 
+.comp {		
+	display: inline-block;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow:
+		0 8px 0 #1a74a1,
+		0 15px 20px rgba(0,0,0,.35);
+	-moz-box-shadow:
+		0 8px 0 #1a74a1,
+		0 15px 20px rgba(0,0,0,.35);
+	box-shadow:
+		0 8px 0 #1a74a1,
+		0 15px 20px rgba(0,0,0,.35);
+	-webkit-transition: -webkit-box-shadow .0s ease-in-out;
+	-moz-transition: -moz-box-shadow .0s ease-in-out;
+	-o-transition: -o-box-shadow .0s ease-in-out;
+	transition: box-shadow .0s ease-in-out;
+	}
+.comp span {	
+	display: inline-block;
+	padding: 10px  20px;
+	font-family: "cooper-black-std-1", "cooper-black-std-2", Helvetica, Arial, sans-serif;
+	line-height: 1;
+	text-shadow: 0 -1px 1px rgba(19,65,88,.8);
+	background: #3194c6;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3194c6), to(#5bacd6));
+	background: -moz-linear-gradient(#3194c6, #5bacd6);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+	-moz-box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+	-webkit-transition: -webkit-transform .0s ease-in-out;
+	-moz-transition: -moz-transform .0s ease-in-out;
+	-o-transition: -o-transform .0s ease-in-out;
+	transition: transform .0s ease-in-out;
+	}
+.comp:active {	
+	-webkit-box-shadow: 
+		0 8px 0 #1a74a1,
+		0 12px 10px rgba(0,0,0,.3);
+	-moz-box-shadow: 
+		0 8px 0 #1a74a1,
+		0 12px 10px rgba(0,0,0,.3);
+	box-shadow: 
+		0 8px 0 #1a74a1,
+		0 12px 10px rgba(0,0,0,.3);
+	}
+.comp:active span {	
+	-webkit-transform: translate(0, 4px);
+	-moz-transform: translate(0, 4px);
+	-o-transform: translate(0, 4px);
+	transform: translate(0, 4px);
+	}
+
+	.air {		
+		display: inline-block;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+		-webkit-box-shadow:
+			0 8px 0 #1a74a1,
+			0 15px 20px rgba(0,0,0,.35);
+		-moz-box-shadow:
+			0 8px 0 #1a74a1,
+			0 15px 20px rgba(0,0,0,.35);
+		box-shadow:
+			0 8px 0 #1a74a1,
+			0 15px 20px rgba(0,0,0,.35);
+		-webkit-transition: -webkit-box-shadow .3s ease-in-out;
+		-moz-transition: -moz-box-shadow .3s ease-in-out;
+		-o-transition: -o-box-shadow .3s ease-in-out;
+		transition: box-shadow .3s ease-in-out;
+		}
+	.air span {	
+		display: inline-block;
+		padding: 10px  20px;
+		font-family: "cooper-black-std-1", "cooper-black-std-2", Helvetica, Arial, sans-serif;
+		line-height: 1;
+		text-shadow: 0 -1px 1px rgba(19,65,88,.8);
+		background: #3194c6;
+		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3194c6), to(#5bacd6));
+		background: -moz-linear-gradient(#3194c6, #5bacd6);
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+		-webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+		-moz-box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+		box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+		-webkit-transition: -webkit-transform .3s ease-in-out;
+		-moz-transition: -moz-transform .3s ease-in-out;
+		-o-transition: -o-transform .3s ease-in-out;
+		transition: transform .3s ease-in-out;
+		}
+	.air:active {	
+		-webkit-box-shadow: 
+			0 8px 0 #1a74a1,
+			0 12px 10px rgba(0,0,0,.3);
+		-moz-box-shadow: 
+			0 8px 0 #1a74a1,
+			0 12px 10px rgba(0,0,0,.3);
+		box-shadow: 
+			0 8px 0 #1a74a1,
+			0 12px 10px rgba(0,0,0,.3);
+		}
+	.air:active span {	
+		-webkit-transform: translate(0, 4px);
+		-moz-transform: translate(0, 4px);
+		-o-transform: translate(0, 4px);
+		transform: translate(0, 4px);
+		}
+
+		.breath {		
+			display: inline-block;
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
+			border-radius: 8px;
+			-webkit-box-shadow:
+				0 8px 0 #1a74a1,
+				0 15px 20px rgba(0,0,0,.35);
+			-moz-box-shadow:
+				0 8px 0 #1a74a1,
+				0 15px 20px rgba(0,0,0,.35);
+			box-shadow:
+				0 8px 0 #1a74a1,
+				0 15px 20px rgba(0,0,0,.35);
+			-webkit-transition: -webkit-box-shadow .3s ease-in-out;
+			-moz-transition: -moz-box-shadow .3s ease-in-out;
+			-o-transition: -o-box-shadow .3s ease-in-out;
+			transition: box-shadow .3s ease-in-out;
+			}
+		.breath span {	
+			display: inline-block;
+			padding: 10px  20px;
+			font-family: "cooper-black-std-1", "cooper-black-std-2", Helvetica, Arial, sans-serif;
+			line-height: 1;
+			text-shadow: 0 -1px 1px rgba(19,65,88,.8);
+			background: #3194c6;
+			background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3194c6), to(#5bacd6));
+			background: -moz-linear-gradient(#3194c6, #5bacd6);
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
+			border-radius: 8px;
+			-webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+			-moz-box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+			box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+			-webkit-transition: -webkit-transform .3s ease-in-out;
+			-moz-transition: -moz-transform .3s ease-in-out;
+			-o-transition: -o-transform .3s ease-in-out;
+			transition: transform .3s ease-in-out;
+			}
+		.breath:active {	
+			-webkit-box-shadow: 
+				0 8px 0 #1a74a1,
+				0 12px 10px rgba(0,0,0,.3);
+			-moz-box-shadow: 
+				0 8px 0 #1a74a1,
+				0 12px 10px rgba(0,0,0,.3);
+			box-shadow: 
+				0 8px 0 #1a74a1,
+				0 12px 10px rgba(0,0,0,.3);
+			}
+		.breath:active span {	
+			-webkit-transform: translate(0, 4px);
+			-moz-transform: translate(0, 4px);
+			-o-transform: translate(0, 4px);
+			transform: translate(0, 4px);
+			}
+
+</style> 
+</head> 
+ 
+<body> 
+
+<div class="mod"> 
+	<ul>
+		<li><a href="" class="comp"><span>Compression</span></a></li>
+		<li><a href="" class="air"><span>Airway</span></a></li> 
+		<li><a href="" class="breath"><span>Breath</span></a></li>
+	</ul>
+</div> 
+  
+
+</body> 
+</html>

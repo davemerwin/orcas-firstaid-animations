@@ -1,0 +1,45 @@
+/*** GENERAL ***/
+*{margin:0;}
+body{margin:0;}
+p{ clear:both;margin:18px;font-size:13px; }
+
+/*** HEADER ***/
+ul#header{ background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(#636363),to(#000000)); background-image: -moz-linear-gradient(0% 0% 270deg,#636363, #000000); -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#636363, endColorstr=#000000)"; border-radius:2px; -moz-border-radius: 2px; font-weight: bold; font-size:16px; color:#FFFFFF;padding:5px;margin:5px; }
+ul#header li { display:inline; }
+ul#header li span.headtext { float:left; }
+ul#header li span.close { float:right; }
+ul#header li span.close a { color:#FFFFFF;text-decoration:none; }
+ul#header:after { content:'.';clear:both;visibility:hidden; }
+
+/*** CANVAS ***/
+#wrapper { width:640px; height:360px; display:block; margin:10px auto; overflow: hidden; position:relative; }
+#canvas { position:relative; z-index:10; width:640px; height:360px; display:block; top: 0px; margin:0 auto; border-top: 0px; overflow: hidden; }
+
+/*** CONTROLS ***/
+#controls { position:absolute; bottom:0; height:60px; width:100%; z-index:100; visibility:hidden; opacity:0; }
+#wrapper:hover #controls { visibility:visible; opacity:1; }
+#play { margin:5px; height:50px; width:50px; background:url(../images/audio_pause.png) no-repeat center; cursor:pointer; }
+#play:hover { background:url(../images/audio_pause_on.png) no-repeat center; }
+#play.paused { background:url(../images/audio_play.png) no-repeat center;  }
+#play.paused:hover { background:url(../images/audio_play_on.png) no-repeat center;  }
+#mute { margin:5px; height:50px; width:50px; background:url(../images/audio_volume.png) no-repeat center; float:right; cursor:pointer; }
+#mute:hover { background:url(../images/audio_volume_on.png) no-repeat center; }
+#mute.muted { background:url(../images/audio_mute.png) no-repeat center; }
+#mute.muted:hover { background:url(../images/audio_mute_on.png) no-repeat center; }
+
+/*** JPLAYER ***/
+#jPlayer { visibility:hidden; }
+#audio { height:0; width:0; }
+
+/*** MODAL ***/
+#modal{ border:1px solid #999; width:400px; z-index:30000; border-radius:5px; background:#fff url() no-repeat; font:.7em/1.5em "Lucida Sans Unicode", "Lucida Grande", sans-serif; margin:0; padding:0;position:absolute; width:400px; }
+
+/*** BUTTONS ***/
+div#buttons { background:#000000 url() no-repeat;margin:0 auto;text-align:center;cursor:pointer; }
+div#buttons { font-size:14px; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; font-weight: strong; }
+div#buttons div.replay {margin-left:105px;}
+div#buttons div.replay,div.continue { background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(#CCCCCC),to(#E5E6E4)); background-image: -moz-linear-gradient(0% 0% 270deg,#CCCCCC, #E5E6E4); -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCCCCC, endColorstr=#E5E6E4)"; border:1px solid #CCCCCC;color:#000000;float:left;padding-left:5px; padding-right:5px;  padding-bottom:3px; padding-top: 3px; margin-bottom:10px;width:75px; }
+div#buttons div.replay { border-radius:5px 0 0 5px; -moz-border-radius: 5px 0 0 5px; }
+div#buttons div.continue { border-radius:0 5px 5px 0; -moz-border-radius: 0 5px 5px 0; }
+div#buttons div.replay:hover,div#buttons div.continue:hover { background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(#CCCCCC),to(#E5E6E4));border:1px solid #B9B9B9;zborder-radius:5px }
+div#buttons div.replay:active,div#buttons div.continue:active { background:#fff url() no-repeat;border:1px solid #000000 }
